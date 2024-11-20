@@ -109,7 +109,7 @@ jobs:
           - nydus
         pull-type:
           - guest-pull
-    runs-on: sev
+    runs-on: self-hosted
     env:
       DOCKER_REGISTRY: ${{ inputs.registry }}
       DOCKER_REPO: ${{ inputs.repo }}
